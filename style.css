@@ -1,0 +1,289 @@
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap');
+
+
+body {
+    background: white;
+    height: 500vh;
+    font-family: 'Work Sans', sans-serif, normal;
+}
+
+header {
+    height: 80px;
+    background: #ffffff;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+}
+
+.headerContent {
+    display: flex;
+    justify-content: space-between;
+    width: 88.333vw;
+    height: 100%;
+    margin-left: 112px;
+    margin-right: 112px;
+}
+
+.logoContainer {
+    width: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /* margin-left: 112px; */
+}
+
+.logo {
+    width: 38px;
+    height: 48px;
+    margin-right: 14px;
+}
+
+.logoTitle a {
+    font-size: 30px;
+    font-weight: 700;
+    color: #2947A9;
+    text-decoration: none;
+}
+
+.logoTitle a span {
+    font-style: italic;
+    margin: 1.5px;
+}
+
+nav {
+    width: 577px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /* margin-right: 112px; */
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    color: #14171F;
+    margin-right: 50px;
+    text-decoration: none;
+}
+
+nav a:nth-child(5) {
+    color: #F9995D;
+    font-weight: 600;
+    margin-right: unset;
+}
+
+/* Contenu  */
+#content {
+    /* background: red; */
+    margin-top: 80px;
+    height: 646px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    background: linear-gradient(
+        90deg, 
+        rgba(255, 255, 255, 0.9) 16.58%, 
+        rgba(255, 255, 255, 0) 72.38%), 
+        url('./images/main-bg-646px-v2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+}
+
+#content > h1 {
+    width: 556px;
+    height: 168px;
+    /* background: green; */
+    margin-left: 112px;
+    font-weight: 600;
+    font-size: 72px;
+    color: #292E3D;
+}
+
+#contentBox {
+    width: 416px;
+    height: 190px;
+    position: absolute;
+    bottom: 1%;
+    right: 0;
+}
+
+#textContainer  {
+    background: #3559C7;
+    padding: 20px 10px 10px 10px;
+    text-align: center;
+    color: #ffffff;
+}
+
+#textContainer > h2 {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#textContainer > p {
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 26px;
+}
+
+#buttonContainer {
+    height: 40px;
+    background: #292E3D;
+    display: flex;
+    color: #ffffff;
+}
+
+#buttonContainer #back{
+    border-right: 1px solid white;
+}
+
+#back, #next {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 400;
+    gap: 10px;
+}
+
+#arrows {
+    width: 26px; 
+    height: 18px;  
+}
+
+/* Content n°2 */
+#secondaryContent {
+    height: 433px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#secondaryContent > h2 {
+    font-weight: 700;
+    font-size: 36px;
+    color: #292E3D;
+    margin-top: 60px;
+    text-align: center;
+}
+
+#tripleCubes {
+    margin-top: 50px;
+    margin-bottom: 94px;
+    display: flex;
+    gap: 66px;
+}
+
+#cubes {
+    width: 292px;
+    height: 197px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+    border: 1px solid #E0E3EB;
+    border-radius: 4px;
+}
+
+#cubes > svg {
+    width: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#cubes > span {
+    margin-left: 20px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#cubes > p {
+    margin-left: 20px;
+    color: #858EAD;
+    margin-bottom: 40px;
+}
+
+/* 3ème contenu */
+#thirdContent {
+    margin-top: 74px;
+    height: 669px;
+}
+
+#BoxesContainer {
+    width: 1217px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+#photoBox {
+    width: 902px;
+    height: 669px;
+    border-radius: 2px;
+    box-shadow: 0px 20px 24px -4px 
+                rgba(17, 24, 39, 0.1), 
+                0px 8px 8px -4px 
+                rgba(17, 24, 39, 0.04);
+    background: url("./images/portrait_v2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#textBox {
+    width: 488px;
+    height: 523px;
+    background: #2947A9;
+    border-radius: 2px;
+    box-shadow: 0px 20px 24px -4px 
+                rgba(17, 24, 39, 0.1),
+                0px 8px 8px -4px 
+                rgba(17, 24, 39, 0.04);
+    position: absolute;
+    right: 0;
+    color: #ffffff;
+    box-sizing: border-box;
+    padding-left: 40px;
+    padding-top: 50px;
+}
+
+#textBox > h4 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    margin-bottom: 37px;
+}
+
+#textBox > p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 74px;
+}
+
+#textBox > button {
+    background: #ffffff;
+    color: #2947A9;
+    border-radius: 6px;
+    border: 2px solid #2947A9;
+    box-sizing: border-box;
+    padding: 16px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 21px;
+    margin-bottom: 60px;
+    cursor: pointer;
+}
