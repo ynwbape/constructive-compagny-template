@@ -218,6 +218,7 @@ nav a:nth-child(5) {
 /* 3ème contenu */
 #thirdContent {
     margin-top: 74px;
+    margin-bottom: 202px;
     height: 669px;
 }
 
@@ -287,3 +288,71 @@ nav a:nth-child(5) {
     margin-bottom: 60px;
     cursor: pointer;
 }
+
+#fourthContent {
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 44px;
+    background: #F6F8F7;
+}
+
+#servicesContainer {
+    width: 1009px;
+    height: 608px;
+    margin: 0 auto;
+}
+
+#servicesContainer > h2 {
+    font-weight: 700;
+    font-size: 36px;
+    color: #292E3D;
+    margin-bottom: 33px;
+}
+
+#servicesCards {
+    height: 413px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.services {
+    width: 271px;
+    height: 181px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 37px -2px rgba(17, 24, 39, 0.05);
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+} 
+
+.services > svg {
+    width: 41px;
+}
+
+.services > .svgBar {
+    width: 61px;
+}
+
+.services > h4 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #2947A9;
+}
+
+.blueCard {
+    background: #2947A9;
+}
+
+.frffrfef {
+    margin-top: 48px;
+}
+
+.blueCard > h4 {
+    color: white;
+} 
