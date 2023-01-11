@@ -355,72 +355,6 @@ nav a:nth-child(5) {
 
 .blueCard > h4 {
     color: white;
-} 
-/* 6th content */
-#ads {
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
-                url('./images/ads_v2.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#adContainer {
-    width: 1170px;
-    display: flex;
-    color: #FFFFFF;
-}
-
-#adTexts {
-    width: 754px;
-}
-
-#adTexts h2 {
-    font-weight: 700;
-    font-size: 36px;
-    margin-bottom: 30px;
-}
-#adTexts p {
-    font-size: 24px;
-    font-weight: 400;
-}
-
-#adTexts p > a {
-    color: #FFFFFF;
-}
-
-#adButton {
-    width: 414px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-#adButton button {
-    width: 232px;
-    height: 53px;
-    border: 2px solid #FFFFFF;
-    border-radius: 2px;
-    text-align: center;
-    line-height: 21px;
-    font-weight: 600;
-    font-size: 18px;
-    color: #FFFFFF;
-    background-color: transparent;
-    cursor: pointer;
-}
-
-/* 10th Section */
-#copyright {
-    background: #2947A9;
-    height: 70px;
-    box-sizing: border-box;
-    padding-top: 26px;
-    padding-left: 112px;
-    color: #FFFFFF;
 }
 
 /* 6th content */
@@ -498,8 +432,6 @@ nav a:nth-child(5) {
 
 #footerLeft {
     width: 471px;
-    /* height: 215px; */
-    /* background: firebrick; */
     display: flex;
     flex-direction: column;
     gap: 32px;
@@ -604,6 +536,7 @@ nav a:nth-child(5) {
 #footerSocials a > svg {
     width: 100%;
 }
+
 /* 10th Section */
 #copyright {
     background: #2947A9;
